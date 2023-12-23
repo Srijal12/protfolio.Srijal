@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+  
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    height:30px;
+    width:100%;
+    display:flex;
+    padding-top: 90px ;
+    align-items: center;
+     justify-content: space-between;
+     align-items: center;
+    
+}
+.navbar logo{
+    width: 10px;
+    cursor:pointer;
+}
+ul{
+    margin-top:-60px;
+   margin-right: 40px;
+  
+}
+ul li{
+    list-style:none;
+    display: inline-block;
+    padding:10px 6px;
+    margin-left:20px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    transition: .4s ease;
+    
+}
+ul li a:hover{
+    color:rgb(17, 60, 134);
+    text-decoration:underline;
+}
+.info{
+    margin-top:6%;
+   margin-left: 6.5%;
+   text-align: center;
+ 
+}
+.info h1{
+    font-size: 65px;
+    color:black;
+}
+.info h3{
+    font-size:18px;
+    letter-spacing:1px;
+    line-height: 24px;
+    margin-bottom:10px;
+}
+.info span{
+    color:rgb(17, 60, 134);
+}
+.info a{
+    text-decoration: none;
+    color:white;
+    background: black;
+    margin:26px 0;
+    padding:5px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 0.4s ease;
+}
+.info a:hover{
+   background:rgb(17, 60, 134);
+}
+.page1{
+    width: 100%;
+    height:100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.about{
+   padding:90px;
+  
+}
+.about h1{
+  text-align: center;
+  padding-bottom:40px;
+  font-size:50px;
+  color:rgb(17, 60, 134);
+}
+.flex{
+    display: flex;
+}
+.flex img{
+    margin-left:40px;
+    width: 400px;
+    height:400px;
+}
+.flex p{
+    width:65%;
+    font-size: 20px;
+}
+
+.page2{
+    width: 100%;
+    height:100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.skills{
+   padding:25px;
+}
+.skills h1{
+  text-align: center;
+  padding-top:65px;
+  font-size:50px;
+  color:rgb(17, 60, 134);
+}
+#cards-container{
+    background-color: rgba(0, 0, 0, 0.482);
+    margin-top: 10vh;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    position: relative;
+  
+}
+.card{
+    height: 70%;
+    width: 26%;
+    background-color:white;
+     border-radius: 20px;
+     background-size: center;
+     background-position:center;
+     overflow: hidden;
+     transition: all ease 0.6s;
+}
+#card1{
+    background-image: url(https://source.unsplash.com/380x280/?html);
+   
+}
+#card2{
+    background-image: url(https://source.unsplash.com/380x280/?css);
+  
+}
+#card3{
+    background-image: url(https://source.unsplash.com/380x280/?javascript);
+
+}
+.overplay{
+    height: 100%;
+    width:100%;
+    background: linear-gradient(white,transparent);
+    padding: 30px;
+    padding-top:60px;
+    position: relative;
+   opacity: 0;
+    transition: all ease 0.6s;
+}
+.overplay h4{
+    color:black;
+    font-size: 40px;
+    text-transform: uppercase;
+    white-space:nowrap;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.overplay p{
+    color:black;
+    font-size :15px;
+    font-weight: 800;
+    
+}
+.card:hover .overplay{
+    opacity:1;
+}
+.card:hover{
+    transform: rotate3d(1,1,0,20deg);
+}
+.page3{
+    width: 100%;
+    height:100%;
+    position: relative;
+    font-family: sans-serif;
+    
+}
+
+
+.page4{
+    width: 100%;
+    height:100%;
+    position: relative;
+    font-family: sans-serif;
+   
+}
+.form-box{
+    width: 380px;
+    height: 380px;
+    background:rgba(17, 60, 134, 0.058);
+   margin-left: 39%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+    position: relative;
+    padding: 15px 20px ;
+    text-align: center;
+    align-self: center;
+
+}
+.contact{
+    font-size: larger;
+    font-size:40px;
+    margin-bottom:20px;
+}
+.fill{
+ text-align: center;
+}
+.form-field{
+    margin:10px;
+    width:300px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+}
+.send{
+    margin:20px;
+    width:300px;
+    height: 50px;
+}
+.page4 h4{
+    margin-left:35%;
+    width: 500px; 
+    color:rgb(17, 60, 134);
+    text-align: center;
+}
+.home a{
+    
+    color:rgb(255, 255, 255);
+    background: black;
+    margin:26px 26px;
+    padding:5px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+.home a:hover{
+    background:rgb(17, 60, 134);
+ }
